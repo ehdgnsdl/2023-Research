@@ -10,23 +10,24 @@
 - 인하대학교 인공지능융합연구센터에서는 본 챌린지를 통해 다양한 Multi-modal 데이터를 기반으로 높은 성능의 추천 알고리즘을 개발하는 것을 목표로 함
 
 # Summary
-![Study Overview](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff820fb4-0d59-4cc5-82ce-b9ff47dc358d/Untitled.png)
+![StudyOverview](https://github.com/ehdgnsdl/2023-Research/assets/87434001/6fb18f91-df43-4446-b8d1-bcbb07a295e3)
 
 Study Overview
 - 서로 다른 하이퍼파라미터 BM3 모델 2개, SLMRec 모델 2개를 앙상블 하여 최종 submission 제작
-- 대학원생 트랙 부분 대상
-
+- Public LB: 0.04217
+- Private LB: 0.04396
+- **Prize: 대학원생 트랙 부분 대상**
 
 ## (0). Competition Metric
 
 평가 산식 : **NDCG@50(Normalized Discounted Cumulative Gain)**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fa7aaddd-7fd5-484e-868a-1fb2a0ed2d8e/Untitled.png)
+![metric](https://github.com/ehdgnsdl/2023-Research/assets/87434001/7768454f-d931-488d-9f1a-422d82b61356)
+
+
 
 ## **(1). Data Description**
-
-![About Dataset](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f45a2e21-bb2f-4c2e-8f0b-aac4fc57298d/Untitled.png)
-
+![Dataset](https://github.com/ehdgnsdl/2023-Research/assets/87434001/b4e43a1d-b930-483b-9476-70aab9ad1a28)
 About Dataset
 
 - train.csv
@@ -52,8 +53,7 @@ About Dataset
 ## **(3). Method**
 
 ### **(3) - 1. BM3 Model**
-
-![BM3 Overview](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9cce1bee-3519-4873-bbaf-3b2b8f8c173d/Untitled.png)
+![BM3](https://github.com/ehdgnsdl/2023-Research/assets/87434001/3ffe85fa-99fd-4a4a-8600-1349bb02c6e2)
 
 BM3 Overview
 
@@ -63,7 +63,7 @@ BM3 Overview
 
 ### **(3) - 2. SLMRec Model**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aa5e62bf-80f0-4a4e-ada7-85c0132cf5a4/Untitled.png)
+![SLMRec](https://github.com/ehdgnsdl/2023-Research/assets/87434001/edf218b3-1a22-4e93-97d6-ac12293d846d)
 
 - Self-supervised Learning 방식
 - 논문 참고: https://ieeexplore.ieee.org/document/9811387
@@ -104,8 +104,8 @@ hyperparameter
 
 ## **(6) Result**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11338d50-a2a3-44c1-81e5-e8974d4dba82/Untitled.png)
+![Result](https://github.com/ehdgnsdl/2023-Research/assets/87434001/571be5a9-7146-406a-ac90-cffbb1d850e4)
 
 - Public LB: 0.04217
 - Private LB: 0.04396
-- 대학원생 트랙 부분 대상
+- Prize: 대학원생 트랙 부분 대상
